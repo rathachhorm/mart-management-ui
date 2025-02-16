@@ -6,9 +6,9 @@ const App = () => {
   return (
     <>
       <h1>
-        Admin page
+        Sale page
       </h1>
-      <Link href="/admin">to test page</Link>
+      <Link href="/sale/test">to test page</Link>
     </>
   );
 };
