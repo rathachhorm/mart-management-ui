@@ -6,7 +6,7 @@ import {
 } from '@ant-design/icons';
 import MenuComponent from './MenuComponent';
 
-const SiderbarMobileComponent = () => {
+const SidebarMobileComponent = () => {
     const [open, setOpen] = useState(false);
     const showDrawer = () => {
         setOpen(true);
@@ -41,4 +41,4 @@ const SiderbarMobileComponent = () => {
     )
 }
 
-export default SiderbarMobileComponent
+export default SidebarMobileComponent

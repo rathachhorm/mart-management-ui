@@ -11,7 +11,7 @@ import { Button, Layout as AntLayout, Menu, theme } from 'antd';
 import '@ant-design/v5-patch-for-react-19';
 import Link from 'next/link';
 import MenuComponent from './(dashboard)/components/MenuComponent';
-import SiderbarMobileComponent from './(dashboard)/components/SiderbarMobileComponent';
+import SidebarMobileComponent from './(dashboard)/components/SidebarMobileComponent';
 
 const { Header, Sider, Content } = AntLayout;
 
@@ -83,7 +83,7 @@ export default function Layout({ children }) {
                             className='hidden md:block'
                         />
                         <div className='sm:block md:hidden mx-5'>
-                            <SiderbarMobileComponent />
+                            <SidebarMobileComponent />
                         </div>
 
                     </Header>
